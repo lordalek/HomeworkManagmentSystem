@@ -22,5 +22,10 @@ namespace HomeworkManagmentSystem.Models
         /// When the homework was publised
         /// </summary>
         public DateTime PublisedDate { get; set; }
+
+        /// <summary>
+        /// If email reminder is activated
+        /// </summary>
+        public bool isReminderActive { get; set; }
     }
 }
