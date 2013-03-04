@@ -5,7 +5,11 @@ using System.Web;
 
 namespace HomeworkManagmentSystem.Models
 {
-    public class EF_HomeworkRepository
+    public class EF_HomeworkRepository : IHomeworkRepository
     {
+        public void CreateNewHomeWorkNote(AbstractHomeworkNote homeworkNoteToCreate)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
